@@ -20,13 +20,13 @@ namespace HelloWorld
             try
             {
                 // Using IRISADOConnection to connect
-                IRISADOConnection connect = new IRISADOConnection();
+                //IRISADOConnection connect = new IRISADOConnection();
 
                 // Create connection string
-                connect.ConnectionString = "Server = " + ip + "; Port = " + port + "; Namespace =  " + Namespace + "; Password = " + password + "; User ID = " + username;
-                connect.Open();
+                //connect.ConnectionString = "Server = " + ip + "; Port = " + port + "; Namespace =  " + Namespace + "; Password = " + password + "; User ID = " + username;
+                //connect.Open();
                 Console.WriteLine("Hello World! You have successfully connected to InterSystems IRIS. Press any key to continue.");
-                Console.ReadKey();
+                //Console.ReadKey();
             }
             catch (Exception e)
             {
